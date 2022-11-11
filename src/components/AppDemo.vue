@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col sm:flex-row justify-start w-full my-16 sm:justify-center">
-        <div :class="`flex flex-col sm:w-1/3 sm:justify-center sm:mx-40 ${app.leftAlign ? 'order-last' : ''}`">
+        <div :class="`flex flex-col sm:w-1/3 sm:justify-center sm:mx-40 ${app.leftAlign ? 'sm:order-last' : ''}`">
             <div class="flex h-12 items-center">
                 <div class="text-6xl text-white font-mono">
                     {{ app.name }}

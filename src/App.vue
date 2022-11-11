@@ -1,6 +1,6 @@
 <template>
     <div id="app" class="p-8 bg-slate-800 flex flex-col">
-        <a class="fixed top-8 left-8 text-lg text-white font-bold cursor-pointer underline" href="https://louiscassany.carrd.co">Photos</a>
+        <a class="absolute text-lg text-white font-bold cursor-pointer underline" href="https://louiscassany.carrd.co">Photos</a>
         <div v-for="app in apps" class="w-full">
             <AppDemo :app="app" />
         </div>
